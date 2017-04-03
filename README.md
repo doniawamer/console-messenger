@@ -27,7 +27,7 @@ Registering a user:<br>
 Sending messages:  
 &nbsp;&nbsp;send_message(UID,GID,"MESSAGE")<br>
 
-Listing old and new messages:
+Listing old and new messages:<br>
 &nbsp;&nbsp;list_new_messages(UID)<br>
 &nbsp;&nbsp;list_old_messages(UID)<br>
 

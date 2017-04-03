@@ -24,10 +24,10 @@ Adding groups:<br>
 Registering a user:<br> 
 &nbsp;&nbsp;register_user(UID,GID)<br>
 
-Sending messages:<br>  
+Sending messages:  
 &nbsp;&nbsp;send_message(UID,GID,"MESSAGE")<br>
 
-Listing old and new messages:<br> 
+Listing old and new messages:
 &nbsp;&nbsp;list_new_messages(UID)<br>
 &nbsp;&nbsp;list_old_messages(UID)<br>
 

@@ -31,7 +31,7 @@ Listing old and new messages:<br>
 &nbsp;&nbsp;list_new_messages(UID)<br>
 &nbsp;&nbsp;list_old_messages(UID)<br>
 
-Listing groups and users:<br>  
+Listing groups and users:  
 &nbsp;&nbsp;list_groups	<br>
 &nbsp;&nbsp;list_users<br>
 

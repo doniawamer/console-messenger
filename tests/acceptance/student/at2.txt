@@ -1,0 +1,40 @@
+-- listing groups and users 
+list_groups				
+list_users
+
+-- adding a user
+add_user(0,"")
+add_user(1,"")
+add_user(4,"Donia")
+add_user(4,"Farah")
+add_user(2,"Farah")
+add_user(3,"Saif")
+add_user(1,"Nadeen")
+add_user(5,"Serene")
+add_user(6,"Sadeen")
+
+-- adding groups
+add_group(0,"")
+add_group(1,"")
+add_group(2,"Amers")
+add_group(2,"Amers")
+add_group(1,"Issas")
+add_group(3,"University Students")
+add_group(4,"High Schoolers")
+
+-- registering a user
+register_user(0,1)
+register_user(1,0)
+register_user(7,1)
+register_user(1,5)
+register_user(1,1)
+register_user(1,1)
+register_user(5,1)
+register_user(4,2)
+register_user(2,2)
+register_user(3,2)
+register_user(4,3)
+register_user(1,3)
+register_user(5,4)
+register_user(2,4)
+

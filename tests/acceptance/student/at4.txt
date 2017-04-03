@@ -1,0 +1,19 @@
+-- adding a user
+add_user(2,"Farah")
+add_user(1,"Nadeen")
+
+-- adding groups
+add_group(2,"Amers")
+
+-- registering a user
+register_user(1,2)
+register_user(2,2)
+
+-- sending messages 
+send_message(2,2,"Hi!")
+
+-- setting preview length 
+set_message_preview(25) 
+set_message_preview(0)
+set_message_preview(2)
+

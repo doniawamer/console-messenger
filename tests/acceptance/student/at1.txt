@@ -1,0 +1,39 @@
+-- errors
+-- listing groups and users 
+list_groups				
+list_users
+
+-- adding a user
+add_user(0,"")
+add_user(1,"")
+
+-- adding groups
+add_group(0,"")
+add_group(1,"")
+
+-- registering a user
+register_user(0,1)
+register_user(1,0)
+
+-- sending messages 
+send_message(0,1,"")
+send_message(1,0,"")
+send_message(7,1,"")
+
+-- listing old and new messages
+list_new_messages(0)
+list_new_messages(7)
+
+-- reading messages
+read_message(6,7)
+read_message(0,1)
+read_message(1,0) 
+
+-- deleting messages
+delete_message(0,1)
+delete_message(1,0)
+delete_message(7,1)
+
+-- setting preview length 
+set_message_preview(0)
+

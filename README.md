@@ -15,33 +15,33 @@
 3. messenger-exe.exe -b *text file*
 
 <b>Commands and Queries:</b>
--- adding a user
+-- Adding a user:<br> 
 add_user(UID,"NAME")
 
--- adding groups
+-- Adding groups:<br> 
 add_group(GID,"NAME")
 
--- registering a user
+-- Registering a user:<br> 
 register_user(UID,GID)
 
--- sending messages 
+-- Sending messages:<br>  
 send_message(UID,GID,"MESSAGE")
 
--- listing old and new messages
+-- Listing old and new messages:<br> 
 list_new_messages(UID)
 list_old_messages(UID)
 
--- listing groups and users 
+-- Listing groups and users:<br>  
 list_groups				
 list_users
 
--- setting preview length 
+-- Setting preview length:<br> 
 set_message_preview(n)
 
--- reading messages
+-- Reading messages:<br> 
 read_message(UID,MID)
 
--- deleting messages 
+-- Deleting messages:<br> 
 delete_message(UID,MID)
 
 (*) For examples check out /tests/acceptance/student/at*.txt
